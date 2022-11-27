@@ -18,5 +18,17 @@
   - copy this token! you will need it in 3.
 
 3.  Change the Bottoken to your Bot-token
+  - Open the Folder
+  - Open Login
+  - Open src
+  - Open env
+  - Open the document environment.go via texteditor / Code Writing Programm
+  - Change the Bottoken to your Bottoken
+  
 4. Change your  Application ID
+  - Change the Application ID to your the Bottoken of your Application ID
+  
 5. If you want to you can change the BotOwbnerID to your Discord ID.
+
+6. check if the start.bat has the Code: `go run main.go` (rightclick)
+7. run the start.bat (dubbleclick) 
