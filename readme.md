@@ -29,7 +29,7 @@
   
 5. If you want to you can change the BotOwbnerID to your Discord ID.
 
-6. check if the start.bat has the Code: `go run main.go` (rightclick)
+6. check if the start.bat has the Code: `go get "github.com/bwmarrin/discordgo"  go run main.go` (rightclick)
 7. run the start.bat (dubbleclick) 
 
 
