@@ -32,3 +32,6 @@
 
 6. check if the start.bat has the Code: `go run main.go` (rightclick)
 7. run the start.bat (dubbleclick) 
+
+
+## I have created this Bot as fast as possible! It contains many different errors! and maby even another language!
