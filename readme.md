@@ -12,7 +12,7 @@
   - Click the Button ´Add Bot´
   - Click the Button ´Yes, do it!´#
   -Scroll down and click on the grey points 
-  - (Immage) [https://imgur.com/download/PNKyAc0/Discord+Bot+Settings]
+  - [Immage] (https://imgur.com/download/PNKyAc0/Discord+Bot+Settings)
   - scroll up
   - press `Reset Token`
   - copy this token! you will need it in 3.
