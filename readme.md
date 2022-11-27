@@ -11,8 +11,7 @@
   - click on the BOt Text on the left of your Browserscreen
   - Click the Button ´Add Bot´
   - Click the Button ´Yes, do it!´#
-  -Scroll down and click on the grey points 
-  - [Immage] (https://imgur.com/download/PNKyAc0/Discord+Bot+Settings)
+  - Scroll down and click on the grey points : PRESENCE INTENT , PRESENCE INTENT , MESSAGE CONTENT INTENT
   - scroll up
   - press `Reset Token`
   - copy this token! you will need it in 3.
