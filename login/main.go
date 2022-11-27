@@ -47,7 +47,6 @@ import (
 	gcolourhex "github.com/oiu053/Login_Bot_Albion/src/discord_working/guildcolour/sethash"
 	"github.com/oiu053/Login_Bot_Albion/src/discord_working/timestampcreator"
 	env "github.com/oiu053/Login_Bot_Albion/src/env"
-	"github.com/oiu053/Login_Bot_Albion/src/readchatlog"
 	"github.com/oiu053/Login_Bot_Albion/src/spezialbotcommands"
 )
 
@@ -110,7 +109,6 @@ func main() {
 	dg.AddHandler(NewJoin)
 	dg.AddHandler(NewLeaf)
 	dg.AddHandler(delMessages)
-	dg.AddHandler(MessageCreate)
 	dg.AddHandler(MessageUpdate)
 	dg.AddHandler(MessageDel)
 	//dg.AddHandler(delcommands)
@@ -318,10 +316,6 @@ func commandHandler(s *discordgo.Session, cmd *discordgo.InteractionCreate) {
 	if cmd.ApplicationCommandData().Name == "register-channel-remove" {
 		registerchannelrem.Registerchannelremove(s, cmd)
 	}
-}
-
-func MessageCreate(s *discordgo.Session, msg *discordgo.MessageCreate) {
-	readchatlog.Chatmessagedetected(s, msg)
 }
 
 func MessageUpdate(s *discordgo.Session, msg *discordgo.MessageUpdate) {
