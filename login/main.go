@@ -318,13 +318,6 @@ func commandHandler(s *discordgo.Session, cmd *discordgo.InteractionCreate) {
 	}
 }
 
-func MessageUpdate(s *discordgo.Session, msg *discordgo.MessageUpdate) {
-	readchatlog.Chatmessagedetected_edite(s, msg)
-}
-func MessageDel(s *discordgo.Session, msg *discordgo.MessageDelete) {
-	readchatlog.Chatmessagedetected_del(s, msg)
-}
-
 func serverJoin(s *discordgo.Session) {
 	Guilds := s.State.Guilds
 
