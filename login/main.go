@@ -109,8 +109,6 @@ func main() {
 	dg.AddHandler(NewJoin)
 	dg.AddHandler(NewLeaf)
 	dg.AddHandler(delMessages)
-	dg.AddHandler(MessageUpdate)
-	dg.AddHandler(MessageDel)
 	//dg.AddHandler(delcommands)
 
 	// Just like the ping pong example, we only care about receiving message
